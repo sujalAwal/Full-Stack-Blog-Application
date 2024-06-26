@@ -29,25 +29,25 @@ Ensure you have the following installed:
 ### Backend (Laravel)
 
 1. **Clone the repository:**
-   ```sh
+   
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name/backend
 
-2. **Install dependencies:
+2. **Install dependencies:**
    composer install
-3. **Copy the example environment file and configure your settings:
+3. **Copy the example environment file and configure your settings:**
 Update the .env file with your database credentials and other necessary configuration. Update the .env file with your database credentials and other necessary configuration.
-4. **Run database migrations:
+4. **Run database migrations:**
  php artisan migrate
-5. **Start the development server:
+5. **Start the development server:**
  php artisan serve   
 
-6. **Navigate to the frontend directory:
+6. **Navigate to the frontend directory:**
 cd ../Frontend
 
-7.**Install dependencies:
+7.**Install dependencies:**
 npm install
-8.**Start the development server:
+8.**Start the development server:**
 npm run dev(The application will automatically open in your default web browser. If not, navigate to http://localhost:3000.)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
